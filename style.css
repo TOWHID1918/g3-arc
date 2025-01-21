@@ -125,6 +125,40 @@ main>section{
 .feature-description{
     max-width: 540px;
 }
+#feature-section-title{
+    border-left:5px solid #FF900E;
+    padding: 21px;
+    margin-bottom: 5px;
+}
+.features-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.features-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.features-love{
+    display: flex;
+    gap:100px;
+}
+#ex-badge{
+    padding: 45px 42px;
+    margin-left: -80px;
+    margin-top: -100px;
+}
+#ex-year{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#ex{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 @media screen and (max-width:576px) {
     .navbar,.nav-link,.team{
